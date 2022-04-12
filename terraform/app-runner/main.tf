@@ -1,8 +1,8 @@
 terraform {
   backend "remote" {
-    organization = "" # Enter the Terraform Cloud Organization here
+    organization = "circle-workshop-an" # Enter the Terraform Cloud Organization here
     workspaces {
-      name = "app-aws-circleci"
+      name = "arm-aws-ecs"
     }
   }
 }
